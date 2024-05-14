@@ -1,0 +1,196 @@
+body{
+    background-color: black;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(34, 46, 53);
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    border-right: 0.5px solid rgba(255,255,255,0.1);
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pict, .get_app, .foot{
+    flex-grow: 1;
+}
+#first{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+#second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    padding-left: 5px;
+}
+#p_picture_div{
+    margin-right: auto;
+    height: 35px;
+    width: 48px;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+#tool_button{
+    width: 35px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(34, 46, 53);
+    border: none;
+    margin-top: 5px;
+}
+#tool_pic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(34, 46, 53);
+    border: none;
+    margin-top: 5px;
+}
+#profile{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(34, 46, 53);
+    border: none;
+    margin-top: 5px;
+}
+.profile_pic_button{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(34, 46, 53);
+    border: none;
+}
+#comp_pic{
+    width: 300px;
+    margin-top: 90px;
+}
+.button_downland{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#downland_windows{
+    color: rgba(255,255,255);
+    margin: 0;
+    margin-bottom: 0;
+    font-size: large;
+    font-weight: 300;
+}
+#make_calls{
+    color: rgba(255,255,255,0.5);
+    font-size: 8px;
+    margin-top: -3px;
+}
+.get_app{
+    background-color: hsl(165, 94%, 42%);
+    border: 0;
+    color: rgb(0, 0, 0);
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 9px;
+    margin-top: -25px;
+    transition: 0.5s;
+}
+.get_app:hover{
+    background-color: hsl(165, 94%, 50%) ;
+}
+.foot{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,0.5);
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lock{
+    width: 5px;
+    color: gray;
+    margin-right: 2px;
+}
+#third, #second{
+    background-color: rgb(17, 27, 33);
+}
+#third{
+    height: 550px;
+    overflow: scroll;
+}
+.svg_search_span{
+    width: 60px;
+    height: 22px;
+    background-color: rgb(34, 46, 53);
+    text-align: center;
+    margin-right: -28px;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+}
+.svg_search {
+    color: #ffffff80;
+    margin-bottom: 1px; 
+    margin-left: -30px;
+    transition:  0.2s;
+}
+.input_bar {
+    background-color: rgb(34, 46, 53);
+    border: none;
+    height: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 9px;
+    text-align: start;
+    padding-inline: 5px;
+    color: white;
+    flex: 1; /* Make it flexible to take up available space */
+}
+.left_direction{
+    width: 18px;
+    margin-left: -25px;
+    margin-bottom: -3px;
+    transition: 0.3s;
+    transform: rotate(-30deg);
+}
+.hide_span{
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 50%;
+}
+.hide_click{
+    background-color: hsl(165, 94%, 36%);
+}
+.sort{
+    margin-top: 2px;
+}
