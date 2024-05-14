@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="alert" role="alert">
+            ERROR
+          </div>
+        <div class="row">
+            <input type="text" class="input_text"  disabled>
+        </div>
+        <div class="row_main">
+            <div class="row">
+               <button class="btn" id="brown1" onclick="cleaning()">AC</button>
+               <button class="btn" id="brown"><sup>+</sup>/<sub>-</sub></button>
+               <button class="btn" id="brown">%</button>
+               <button class="btn" id="orage">/</button>
+            </div>
+            <div class="row">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn" id="orage">*</button>
+            </div>
+            <div class="row">
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn" id="orage">-</button>
+            </div>
+            <div class="row">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn" id="orage">+</button>
+            </div>
+            <div class="row">
+                <button class="btn" id="zero">0</button>
+                <button class="btn">.</button>
+                <button class="btn" id="orage" onclick="leader()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+</body>
+</html>
