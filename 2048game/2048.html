@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/projects/2048game/2048.css">
+</head>
+<body>
+
+    <div class="" id="lost">
+
+    </div>
+
+    <div class="container">
+
+        <div class="upper">
+            <div class="left">
+                <h1>2048</h1>
+                <p>Join the tiles, get to <strong>2048!</strong></p>
+            </div>
+            <div class="right">
+                <div class="score">
+                    <span>Score</span>
+                    <input type="text" value = "0" class="score_input" disabled>
+                </div>
+                <div class="best">
+                    <span>Best</span>
+                    <input type="text" value = "0" class="best_input" id="best" disabled>
+                </div>
+                    <button class="newgame">New Game</button>
+            </div>
+        </div>
+
+        <div class="lower">
+            <div class="block" id="00"></div>
+            <div class="block" id="01"></div>
+            <div class="block" id="02"></div>
+            <div class="block" id="03"></div>
+            <div class="block" id="10"></div>
+            <div class="block" id="11"></div>
+            <div class="block" id="12"></div>
+            <div class="block" id="13"></div>
+            <div class="block" id="20"></div>
+            <div class="block" id="21"></div>
+            <div class="block" id="22"></div>
+            <div class="block" id="23"></div>
+            <div class="block" id="30"></div>
+            <div class="block" id="31"></div>
+            <div class="block" id="32"></div>
+            <div class="block" id="33"></div>
+        </div>
+    </div>
+
+
+    
+    <script src="/projects/2048game/2048.js"></script>
+</body>
+</html>
